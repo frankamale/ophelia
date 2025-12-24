@@ -91,7 +91,7 @@ function App() {
             className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6"
             style={{ transform: `translateY(${scrollY * 0.25}px)` }}
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 bg-clip-text text-transparent font-serif">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300 bg-clip-text text-transparent font-pacifico">
               Merry Christmas
             </h1>
             <p className="text-xl md:text-2xl text-purple-100 max-w-2xl italic">
@@ -109,7 +109,7 @@ function App() {
           </div>
 
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-10 shadow-2xl border border-white/20">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-yellow-200 to-pink-200 bg-clip-text text-transparent font-serif">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-yellow-200 to-pink-200 bg-clip-text text-transparent font-pacifico">
               A Christmas Thought
             </h2>
             <p className="text-lg md:text-xl text-purple-100 leading-relaxed mb-6">
@@ -129,7 +129,7 @@ function App() {
         <div className="max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl">
           <img src="/ophelia3.jpeg" className="w-full h-[70vh] object-cover" />
           <div className="absolute inset-0 bg-black/35 flex items-end p-8">
-            <p className="text-2xl font-serif italic">
+            <p className="text-2xl font-pacifico italic">
               Every smile feels like a gift.
             </p>
           </div>
@@ -150,7 +150,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="relative z-20 py-20 text-center">
-        <p className="text-2xl md:text-3xl font-bold mb-4 text-purple-200 font-serif italic">
+        <p className="text-2xl md:text-3xl font-bold mb-4 text-purple-200 font-pacifico italic">
           Merry Christmas
         </p>
         <p className="text-lg text-purple-300">

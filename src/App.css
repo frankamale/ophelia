@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* Pacifico Font Import */
+@font-face {
+  font-family: 'Pacifico';
+  src: url('/Pacifico-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-serif {
   font-family: 'Playfair Display', serif;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
 }
 
 /* Snowfall Animation */
